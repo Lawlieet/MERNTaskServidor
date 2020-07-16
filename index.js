@@ -8,7 +8,7 @@ const app = express();
 // Conectar a la DB
 conectarDB();
 
-// Habilitar CORS
+//Habilitar CORS
 app.use(cors());
 
 // Habilitar express.json
